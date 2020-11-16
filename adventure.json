@@ -1,0 +1,64 @@
+{
+  "__metadata__": {
+    "title": "Haunted Cabin",
+    "start": "Entrance"
+  },
+  "entrance room": {
+    "name": "entrance room",
+    "description": "You're in the entrance room, of a haunted cabin.",
+    "exits": [
+      {
+        "destination": "hallway",
+        "description": "A door leads into the hall."
+      }
+    ],
+    "items": []
+  },
+  "hallway": {
+    "name": "hallway",
+    "description": "This is a hallway with many locked doors.",
+    "exits": [
+      {
+        "destination": "entrance room",
+        "description": "Go back into the entrance hall."
+      },
+      {
+        "destination": "staircase",
+        "description": "There is a staircase leading upward."
+      }
+    ],
+    "items": []
+  },
+  "staircase": {
+    "name": "staircase",
+    "description": "The staircase leads downward.",
+    "exits": [
+      {
+        "destination": "hallway",
+        "description": "Nevermind; go back to the hallway."
+      },
+      {
+        "destination": "outside",
+        "description": "A door at the bottom of the stairs has a red, glowing, EXIT sign."
+      },
+      {
+        "destination": "outside",
+        "description": "A door at the bottom of the stairs has a red, glowing, EXIT sign."
+      }
+    ],
+    "items": []
+  },
+  "staircase 2": {
+    "name": "staircase 2",
+    "description": "The staircase leads downward.",
+    "exits": [],
+    "items": []
+  },
+  "outside": {
+    "name": "outside",
+    "description": "You've escaped! You ski down the hill for miles.",
+    "exits": [],
+    "items": [],
+    "ends_game": true
+  }
+}
